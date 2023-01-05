@@ -1,0 +1,6 @@
+In microservice ecosystem services are mostly dependent on other remote services. These ecosystem should take into consideration that these remote services
+could fail. They could fail because of server faults, application load, network issues, etc. In such scenario, it is pointless to keep retying. Circuit breaker pattern can be useful in such scenarios. This pattern instead of retying trips the calls and returns a fallback response till remote service is restired. 
+    There are popular open-source libraries, like Netflix’s Hystrix or Reselience4J, that can be used to implement this pattern very easily.    
+More detail about Hystrix can be found at [How-it-Works](https://github.com/Netflix/Hystrix/wiki/How-it-Works).
+
+
