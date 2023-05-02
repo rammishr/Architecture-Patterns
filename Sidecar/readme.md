@@ -1,8 +1,10 @@
 ## Sidecar Pattern
 
 The Sidecar Pattern is a software architecture pattern in which an application is decomposed into two separate parts: a primary component and a secondary component, or "sidecar." The primary component is responsible for performing the application's core functionality, while the sidecar provides additional features, such as monitoring, logging, or data processing. This pattern is useful in distributed systems where a single application needs to perform multiple tasks, but each task requires different resources and dependencies.
-        For example, suppose you have a microservice that processes user data. In that case, the primary component might be responsible for handling requests, retrieving and updating data from a database, and returning responses to clients. However, you might also want to collect and analyze data on how the microservice is performing or add authentication and authorization features to secure the service. These additional features can be implemented as a sidecar, which runs alongside the primary component and provides these features.
-        
+
+For example, suppose you have a microservice that processes user data. In that case, the primary component might be responsible for handling requests, retrieving and updating data from a database, and returning responses to clients. However, you might also want to collect and analyze data on how the microservice is performing or add authentication and authorization features to secure the service. These additional features can be implemented as a sidecar, which runs alongside the primary component and provides these features.
+        ![image](https://user-images.githubusercontent.com/43367262/235587641-69faea8f-4d6d-4791-a9b8-8986926ac3c0.png)
+
 
 ### How it works
 
