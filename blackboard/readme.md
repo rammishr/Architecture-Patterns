@@ -7,7 +7,7 @@ The Blackboard Design Pattern is a computational design pattern that involves mu
 The Blackboard Design Pattern is a way to solve complex problems by breaking them down into smaller, more manageable pieces. Each piece is tackled by a specialized controller that has expertise in that area. The controllers work together by sharing information on a common "blackboard" or workspace. The blackboard acts as a central repository for information and allows the controllers to communicate with each other.
 <img width="321" alt="image" src="https://user-images.githubusercontent.com/43367262/236131165-66dc1a1b-fcc7-4141-84cc-2ac57f47677b.png">
 
-The Blackboard Design Pattern is often used in applications where there is no clear algorithmic solution to a problem, such as natural language processing, image recognition, and machine learning. It allows for a flexible, modular approach to problem-solving, where each controller can be modified or replaced without affecting the otherscontroller
+The Blackboard Design Pattern is often used in applications where there is no clear algorithmic solution to a problem, such as natural language processing, image recognition, and machine learning. It allows for a flexible, modular approach to problem-solving, where each controller can be modified or replaced without affecting the others.
 
 ## How Does the Blackboard Design Pattern Work?
 
