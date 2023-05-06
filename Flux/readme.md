@@ -47,7 +47,7 @@ The Flux architecture offers several benefits, including:
 - **Flexibility**: Flux can be used with any view library or framework, and can be adapted to fit the specific needs of an application.
 
 ## Demo
-A sample application is present in this folder. You can extract it run with `npx webpack` command to generate the output file. You can test it by opening the `test.html` file in the browser. 
+A sample application is present in this folder. You can extract it run with `npx webpack` command to generate the output file. You can test it by opening the `index.html` file in the browser. 
 
 ## Conclusion
 
