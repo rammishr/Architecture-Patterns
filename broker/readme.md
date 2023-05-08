@@ -37,6 +37,7 @@ There are several message brokers available that implement the Broker Design Pat
 ## Demo
 You can find a simple demo application with apache kafka. Follow below steps to run it.
 1. **run zookeeper**: ./apache-zookeeper-3.8.1-bin/bin/zkServer.sh  --config ./apache-zookeeper-3.8.1-bin/conf start
+2. **install Kafka in this directory and run it. Because of file size contsraint it not attched here**
 2. **run kafka**: ./kafka_2.12-3.4.0/bin/kafka-server-start.sh  ./kafka_2.12-3.4.0/config/server.properties 
 3. **Run Consumer**: node consumer.js
 4. **run Producer**: node producer.js
