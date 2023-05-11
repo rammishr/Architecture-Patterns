@@ -2,6 +2,8 @@
 
 Space-Based Architecture (SBA) is a distributed computing pattern that is used to develop highly scalable and available systems. It's based on the idea of dividing a large problem into smaller, independent chunks of data, processing those chunks in parallel, and then reassembling the results.
 
+![image](https://github.com/rammishr/Architecture-Patterns/assets/43367262/1cde254b-567e-4dfa-950f-a418c5da107b)
+
 SBA uses a shared-nothing architecture, which means that each node in the system has its own memory, processing power, and storage. Nodes communicate with each other by passing messages through a shared data space, which can be implemented as a distributed hash table, a message queue, or any other data storage system that supports parallel access.
 
 ## Key Benefits of SBA
